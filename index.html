@@ -494,7 +494,26 @@
           <li><strong>Directional Thrust:</strong> Downward gas acceleration generates an instantaneous, equal reaction thrust upward.</li>
         </ul>
       </div>
-    </div>    <!-- Slide 5: Rocket Dynamics -->
+      <!-- Slide 4.2: Thrust Vector Control (TVC) -->
+    <div class="slide-card" onclick="openSlideModal(this, 4.2)">
+      <div class="slide-media">
+        <img src="ThrustVectorControl(TVC)photo.jpeg" alt="Thrust Vector Control (TVC) Engine Gimbal Diagram">
+      </div>
+      <div class="slide-content">
+        <div class="slide-tag">Slide 4.2: Steering Without Air</div>
+        <h2 class="slide-title">Thrust Vector Control (TVC)</h2>
+        <div class="testimonial-box">
+          "To keep this energy stable during launch, we use Thrust Vector Control (TVC). Instead of using aerodynamic fins—which become useless in thin air—the Command and Data Handling (C&amp;DH) software reads data from inertial measurement sensors and commands hydraulic actuators to physically gimbal, or tilt, the engine nozzle. By redirecting the thrust vector by fractions of a degree, the rocket constantly realigns its center of mass, balancing like a broomstick on the tip of your finger."
+        </div>
+        <ul class="slide-bullet-list">
+          <li><strong>Beyond Aerodynamics:</strong> Traditional aerodynamic fins become useless in thin air, requiring active nozzle gimbaling for flight stability.</li>
+          <li><strong>Gimbal Pivot Point:</strong> Acts as a multi-directional universal joint where the engine mounts.</li>
+          <li><strong>Thrust Vector Actuators:</strong> Hydraulic or electromechanical rams push and pull to tilt the nozzle in real time.</li>
+          <li><strong>Inertial Measurement Unit (IMU):</strong> The "inner ear" of the rocket, using gyroscopes and accelerometers to monitor orientation and linear motion.</li>
+          <li><strong>Millisecond Corrections:</strong> C&amp;DH software reads IMU telemetry and tilts nozzles within milliseconds to maintain trajectory alignment.</li>
+        </ul>
+      </div>
+    </div>    </div>    <!-- Slide 5: Rocket Dynamics -->
     <div class="slide-card" onclick="openSlideModal(this, 5)">
       <div class="slide-media">
         <img src="rocketslide5.png" alt="The Tyranny of the Rocket Equation Diagram">
