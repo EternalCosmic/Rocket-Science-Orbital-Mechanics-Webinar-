@@ -516,7 +516,29 @@
         </ul>
       </div>
     </div>
-    </div>    </div>    <!-- Slide 5: Rocket Dynamics -->
+    </div>    </div>   
+
+<!-- Slide 4.3: Inertial Measurement Unit (IMU) -->
+    <div class="slide-card" onclick="openSlideModal(this, 4.3)">
+      <div class="slide-media">
+        <img src="InertialmeasurementUnit(IMU)photo.jpeg" alt="Inertial Measurement Unit (IMU) Hardware and Dead Reckoning Diagram">
+      </div>
+      <div class="slide-content">
+        <div class="slide-tag">Slide 4.3: The Inner Ear</div>
+        <h2 class="slide-title">Inertial Measurement Unit (IMU)</h2>
+        <div class="testimonial-box">
+          "Now, how does a rocket know which way it’s pointing in the cold void of space? It relies on its Inertial Measurement Unit, or IMU. Think of the IMU as the rocket’s internal 'inner ear.' Just like your vestibular system tells your brain which way is up—even with your eyes closed—the IMU tracks the rocket's movement completely self-contained, without needing GPS or ground control."
+        </div>
+        <ul class="slide-bullet-list">
+          <li><strong>Self-Contained Navigation:</strong> Determines orientation and movement without relying on external references like GPS or ground tracking.</li>
+          <li><strong>Gyroscopes (Angular Rate):</strong> Measure rotational velocity using Ring Laser Gyros (RLG) or Fiber Optic Gyros (FOG) to track Pitch, Yaw, and Roll.</li>
+          <li><strong>Accelerometers (Linear Motion):</strong> Measure non-gravitational acceleration to track forward thrust, vertical acceleration, and lateral drift.</li>
+          <li><strong>Dead Reckoning Loop:</strong> Integrating gyro data over time yields 3D Attitude; integrating accelerometer data yields Velocity (v) and Position. </li>
+          <li><strong>C&amp;DH Closed-Loop Feedback:</strong> Instantly detects wind shear or trajectory drift (e.g., 0.1 degrees) and commands TVC actuators to gimbal the nozzle within milliseconds.</li>
+        </ul>
+      </div>
+    </div>  
+  <!-- Slide 5: Rocket Dynamics -->
     <div class="slide-card" onclick="openSlideModal(this, 5)">
       <div class="slide-media">
         <img src="rocketslide5.png" alt="The Rocket Equation Diagram">
@@ -572,26 +594,7 @@
       </div>
     </div>
 
-<!-- Slide 5.3: Inertial Measurement Unit (IMU) -->
-    <div class="slide-card" onclick="openSlideModal(this, 5.3)">
-      <div class="slide-media">
-        <img src="InertialmeasurementUnit(IMU)photo.jpeg" alt="Inertial Measurement Unit (IMU) Hardware and Dead Reckoning Diagram">
-      </div>
-      <div class="slide-content">
-        <div class="slide-tag">Slide 5.3: The Inner Ear</div>
-        <h2 class="slide-title">Inertial Measurement Unit (IMU)</h2>
-        <div class="testimonial-box">
-          "Now, how does a rocket know which way it’s pointing in the cold void of space? It relies on its Inertial Measurement Unit, or IMU. Think of the IMU as the rocket’s internal 'inner ear.' Just like your vestibular system tells your brain which way is up—even with your eyes closed—the IMU tracks the rocket's movement completely self-contained, without needing GPS or ground control."
-        </div>
-        <ul class="slide-bullet-list">
-          <li><strong>Self-Contained Navigation:</strong> Determines orientation and movement without relying on external references like GPS or ground tracking.</li>
-          <li><strong>Gyroscopes (Angular Rate):</strong> Measure rotational velocity using Ring Laser Gyros (RLG) or Fiber Optic Gyros (FOG) to track Pitch, Yaw, and Roll.</li>
-          <li><strong>Accelerometers (Linear Motion):</strong> Measure non-gravitational acceleration to track forward thrust, vertical acceleration, and lateral drift.</li>
-          <li><strong>Dead Reckoning Loop:</strong> Integrating gyro data over time yields 3D Attitude; integrating accelerometer data yields Velocity (v) and Position. </li>
-          <li><strong>C&amp;DH Closed-Loop Feedback:</strong> Instantly detects wind shear or trajectory drift (e.g., 0.1 degrees) and commands TVC actuators to gimbal the nozzle within milliseconds.</li>
-        </ul>
-      </div>
-    </div>
+
   
   
     <!-- Slide 6: Orbital Mechanics -->
